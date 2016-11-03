@@ -7,3 +7,5 @@ actors.synctex.gz
 actors.toc
 actors.vrb
 
+**/project/*
+**/target/*
