@@ -9,3 +9,5 @@ actors.vrb
 
 **/project/*
 **/target/*
+
+**/*.beam

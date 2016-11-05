@@ -1,7 +1,9 @@
 defmodule Stack do
   use GenServer
 
-  # Callbacks
+  def start_link(initial_state, opts \\ []) do
+    GenServer.start_link(__MODULE__, initial_state, opts)
+  end
 
   def handle_call(:pop, _from, []) do
     {:reply, nil, []}
